@@ -32,8 +32,6 @@ cleanup-commands:
   - rm -rf /app/lib/{cmake,mkspecs,pkgconfig}
 
 modules:
-  - shared-modules/python2.7/python-2.7.json
-
   - name: notepadqq
     buildsystem: qmake
     config-opts:
